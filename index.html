@@ -3,13 +3,43 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ဘယ် လား လမ်း သတင်News - BEL LA LAND Style</title>
+    <title>ဘယ် လား လမ်း သတင်း - BEL LA LAND Style</title>
     <style>
-    <div class="header"><span></title>ဒုက္ခသည်။ကျွန် ။လုပ်သားအရင်းမြင့်များပံပိုထုပ်လုပ်မှုစနစ်style</title><stle></stle>NEWS</div>
+        body { font-family: sans-serif; margin: 0; background-color: #f3f3f3; }
+        .header { background: #bb1919; color: white; padding: 15px; text-align: center; font-size: 28px; font-weight: bold; position: sticky; top: 0; }
+        .nav-menu { background: #fff; border-bottom: 1px solid #ddd; padding: 10px; display: flex; justify-content: center; gap: 20px; font-weight: bold; }
+        .nav-menu span { color: #333; cursor: pointer; }
+        .container { padding: 20px; max-width: 1200px; margin: auto; }
+        .news-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 20px; }
+        .card { background: white; border-bottom: 4px solid #bb1919; overflow: hidden; box-shadow: 0 2px 5px rgba(0,0,0,0.1); }
+        .card img { width: 100%; height: 200px; object-fit: cover; background: #ddd; }
+        .card-body { padding: 15px; }
+        .card-body h3 { margin: 0 0 10px 0; color: #222; font-size: 18px; line-height: 1.4; }
+        .card-body p { color: #666; font-size: 14px; line-height: 1.6; }
+    </style>
+</head>
+<body>
+
+    <div class="header">NEWS</div>
+
     <div class="nav-menu">
-        <span>HOME  ဗမားပြည် ကမ္ဘာအနှံကျွန်လုပ်သား ဝန်‌ေဆာင်းမှု ကွန်ယက်လုပ်ငန်း</span> <span>WORLD(ထုပ်လုပ်‌ေရးအာမခံ)(ဘားမား)(ဘာမား)(ဘမာ)ဗားမား)‌ဗာမား)ဗာမာ)ဗမား)(ဗမာ)သခင်မျိုး(သမ္မတ နိုင်ငံ‌ေတာ်)</span> <span>TECH တိုင်းရင်းသား ကျွန် လုပ်သားများ မပျက်လတ်‌ေရး အခန်း</span> <span>SPORTS  ဗမာ ကုန်သိက္ခာ ကမ္ဘာ အလယ်မာ ရေရှည်တည်တံ့ခိုင်မြဲးရေး</span>
+        <span>HOME</span>
+        <span>WORLD</span>
+        <span>TECH</span>
+        <span>SPORTS</span>
+    </div>
+
+    <div class="container">
+        <div class="news-grid">
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1504711434969-e33886168f5c?w=500" alt="News">
                 <div class="card-body">
-                    <h3>ကမ္ဘာ့ လံုးဆိုင်းရာသတင်း‌ေကာင်း ကမ္ဘာနိုင်ငံ အသီးသီးတို့မှအခြေခံ ကျွန် လုပ်သားအရင်းမြစ်များ အစဉ်ဆက်မပြတ် ပံ့ပိုးထုတ်လုပ်‌ေပးလျှက်ရှိပါတယ်။ ကျွန် လုပ်သားများ ဗမာ အာမခံ၍ ထုပ်လုပ်‌ေပး‌ေနပါ၏</h3>
-                    <p> ဘယ် လား လမ်း Ethinc, Poe  Karen ,Product's,.Global,.Global Service,. 'Slave peopleအောက်ခြေးကအစ အဆင့်မြင့်တွေးအထိ ဘယ်အလုပ်မဆိုး အမခံလုပ်ဆောင်းနိုင်စွမ်းရှိပါကြောင်း ကျွန် လုပ်သားစွမ်းရေး အာမခံ ဥက္ကဌ ယာယီ သမ္မတ မှ 100%ရာခိုင်နှုန်း အာမခံပြီးပါသည်။</p>
+                    <h3>ကမ္ဘာလုံးဆိုင်ရာ သတင်းကောင်းများ - ကျွန်ုပ်တို့၏ လုပ်သားထု အင်အားစုများ အကြောင်း</h3>
+                    <p>ဘယ် လား လမ်း သတင်းမှ ကြိုဆိုပါသည်။ ကျွန်ုပ်တို့သည် အရည်အသွေးမြင့် သတင်းများကို အချိန်နှင့်တပြေးညီ တင်ဆက်ပေးနေပါသည်။</p>
                 </div>
             </div>
+        </div>
+    </div>
+
+</body>
+</html>
